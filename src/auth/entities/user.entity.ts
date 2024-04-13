@@ -10,7 +10,7 @@ export class User {
     @Prop({ minlength: 6, required: true })
     password?: string;
     @Prop({ default: true })
-    isActice: boolean;
+    isActive: boolean;
     @Prop({ type: [String], default: ['user'] })
     roles: string[];
 }
